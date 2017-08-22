@@ -34,6 +34,7 @@ public class SplashActivity extends AppCompatActivity {
         mAdapter1 = new MyAdapter(resId);
         mAdapter2 = new MyAdapter(resId);
 
+
         mCardView.setAdapter(mAdapter1);
         mCardView.setCardAnimationListener(new InfiniteCardView.CardAnimationListener() {
             @Override
